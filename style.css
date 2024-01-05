@@ -103,7 +103,7 @@ body {color:#424242; background:#fff}
 .sec2 h2 em {color:#0098ED}
 
 .sec2 header{opacity:0;position:absolute;left:0;top:0;display:flex;justify-content:space-between;width:100%;padding:40px 20px;transform:translateY(70px);}
-.sec2 nav{display:flex;gap:20px;}
+.sec2 nav{display:flex;gap:20px;padding-right:20px;}
 .sec2 nav a{font-weight:bold;}
 
 .sec2 .inner{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;}
