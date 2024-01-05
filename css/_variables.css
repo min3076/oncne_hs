@@ -1,0 +1,69 @@
+@charset "UTF-8";
+:root {
+
+	/* Primary - color */
+	--c_white_p40 : rgba(255, 255, 255, 0.40);
+	--c_white_p60 : rgba(255, 255, 255, 0.60);
+
+	--c_bg_gray:#F4F5F6;
+	--c_bg_gray_m:#DEE4E8;
+
+	
+
+	/* Primary - color */
+	--c_primary : #0098ED;
+	--c_secondary : #57BBAD;
+	--c_gray : #D3D3D3;
+
+	/*  color - more */
+	--c_primary_m : #2A3E6C;
+	--c_primary_m2 : #0E1D4B;
+	--c_primary_p10 : #E7F3FF;
+
+	
+	--c_secondary_m : #00A467;
+
+	/* color - 40 */
+	--c_primary_40 : #6E99FF;
+	--c_secondary_40 : #5ED27D;
+
+	/* color - default */
+	--c_white:#fff;
+	--c_black:#000;
+
+	/* color - grayscale */
+	--c_gray_5 : #f4f6f9;
+	--c_gray_10 : #F8F9FA;
+	--c_gray_20 : #EEF0F5;
+	--c_gray_30 : #D5DCDF;
+	--c_gray_40 : #CED4DA;
+	--c_gray_50 : #8D9BA8;
+	--c_gray_60 : #6C757D;
+	--c_gray_70 : #495057;
+	--c_gray_80 : #343A40;
+	--c_gray_90 : #141F48;
+
+
+	/* color - theme */
+	--c_themeA:#EE4A6D;
+	--c_themeA_10:#FFD8E0;
+	--c_themeB:#E7A702;
+	--c_themeB_10:#FFFCE2;
+	--c_themeC:#FB5E36;
+	--c_themeC_10:#FFECE8;
+
+	/* bg / line - color */
+	--bg_line1 : #060606;
+	--bg_line2 : #C4C6CE;
+	--bg_line3 : #E8EAEB;
+
+	--ani_time:.3s;
+	--load_time:3s;
+	--f_eli:'EliceDigitalBaeum-Bd';
+	--f_power:'GangwonEduPowerExtraBoldA';
+	--f_nsN:'NanumSquareNeo';
+	--f_nsR:'NanumSquareRound';
+}
+
+/* .c-primary-dark {color:var(--c_primary_m);}  적용예시 */
+
