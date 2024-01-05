@@ -35,7 +35,7 @@ body {color:#424242; background:#fff}
 #wrap section .inner {width:100%; height:100%; display:flex; align-items: center; justify-content: center;}
 
 .obj{opacity:0;position:absolute;left:50%;top:20%;transform:translate(-50%, -50%);width:20px;height:20px;border-radius:20px;background-repeat:no-repeat;background-size:auto;mix-blend-mode: multiply;}
-.cir_red{opacity:1;width:20px;height:20px;border-radius:20px;background:#CF2822}
+.cir_red{opacity:0;width:20px;height:20px;border-radius:20px;background:#CF2822}
 .cir_yellow{width:20px;height:20px;margin-left:-30%;border-radius:20px;background:#FFCC00}
 .sqa{width:50px;height:50px;margin-left:10%;border-radius:10px;background:#3B5BD6}
 

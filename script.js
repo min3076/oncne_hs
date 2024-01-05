@@ -22,7 +22,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 //배경
 
-scene1.to('.cir_red', {opacity: 1,x: 200 , y: 200, scale:2,ease: "power1.in" })
+scene1.to('.cir_red', {x: 200 , y: 200, scale:2,ease: "power1.in" })
 scene1.to('.star', {scale:0})
 scene1.to('.cir', {opacity:0,scale:0,ease: "power1.in" })
 
