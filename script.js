@@ -13,7 +13,7 @@ gsap.registerPlugin(ScrollTrigger);
       end: "bottom bottom", // 끝점
       // end: "+=1000", // 끝점
       scrub: .2, // 모션바운스
-      markers: true, // 개발가이드선
+      markers: false, // 개발가이드선
       onLeave: function(){
         console.log('end');
       }
