@@ -1,7 +1,4 @@
 gsap.registerPlugin(ScrollTrigger);
-    let speed = 100;
-    let speed2 = 200;
-
     /*  SCENE 1 */
     let scene1 = gsap.timeline();
     ScrollTrigger.create({
@@ -20,7 +17,27 @@ gsap.registerPlugin(ScrollTrigger);
     });
 
 
+  gsap.fromTo(".start_copy", { opacity: 0 }, {
+
+    opacity: 1,
+    ease: "power2.out",
+    // scrollTrigger: {
+    //     trigger: "#wrap",
+    //     start: "15% top",
+    //     end: "60% 100%",
+    //     scrub:1,
+    //     onEnter: function() { gsap.to(".cir_blue", {  scale:2 }) },
+    //     onLeave: function() { gsap.to(".cir_blue", {  scale:1 }) },
+    // }
+  })
+
+  
+
+
 //배경
+scene1.to('.sec1_tit1', {duration:600, opacity: 1, y: 0,ease: "power1.in" },0)
+scene1.to('.sec1_tit1', {duration:600, y: -100,ease: "power1.in" },0)
+
 
 scene1.to('.cir_red', {x: 200 , y: 200, scale:2,ease: "power1.in" })
 scene1.to('.star', {scale:0})
@@ -34,8 +51,7 @@ scene1.to('.star', {duration:6000,opacity: 1, scale:1,rotation:180, ease: "power
 scene1.to('.cir_yellow', {delay:10,opacity: 1,duration: 6000, y: 200, scale:4,ease: "power1.in" },'start1')
 scene1.to('.slash', {delay:10,duration: 6000, opacity: 1, x:0, y: -200,ease: "power1.in" },'start1')
 
-scene1.to('.sec1_tit1', {duration:600, opacity: 1, y: 0,ease: "power1.in" },'start1')
-scene1.to('.sec1_tit1', {duration:600, y: -100,ease: "power1.in" })
+
 
 //~출발선이 평등한 등장
 scene1.add('start2')

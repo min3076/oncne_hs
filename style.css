@@ -39,18 +39,22 @@ body {color:#424242; background:#fff}
 .cir_yellow{width:20px;height:20px;margin-left:-30%;border-radius:20px;background:#FFCC00}
 .sqa{width:50px;height:50px;margin-left:10%;border-radius:10px;background:#3B5BD6}
 
-.cir_blue{width:20px;height:20px;margin-left:30%;border-radius:20px;background:#292D4D}
+.cir_blue{width:20px;height:20px;margin-left:0;border-radius:20px;background:#292D4D}
 .star{width:200px;height:200px;margin-left:30%;border-radius:20px;background-image:url(./images/obj_1.svg)}
 .slash{width:100px;height:120px;margin-left:30%;border-radius:20px;background-image:url(./images/obj_2.svg)}
 .cir{width:200px;height:200px;border-radius:20px;background-image:url(./images/obj_3.svg);background-size:100% auto}
 
 
 #wrap section.sec1 {height:var(--sec2_Height);}
-#wrap section.sec1 h2 {z-index:10;opacity:0; position:absolute; left:0; top:20%; width:100%; font-size:40px; text-align:center; transform: translateY(30px); -webkit-transform: translateY(30px); transition: all 0.2s ease;font-family: 'EliceDigitalBaeum_Bold';font-size:62px;}
-/* #wrap section.sec1 h2.sec1_tit1 {opacity:1; transform: translateY(0); -webkit-transform: translateY(0)}
-*/
+/* #wrap section.sec1 .start_copy{opacity:0; position:absolute; left:0; top:20%;width:100%;}
+#wrap section.sec1 .start_copy h2{position:static;} */
+#wrap section.sec1 h2 {z-index:10; position:absolute; left:0; top:20%; width:100%; font-size:40px; text-align:center; transform: translateY(30px); -webkit-transform: translateY(30px); transition: all 0.2s ease;font-family: 'EliceDigitalBaeum_Bold';font-size:62px;}
+/* #wrap section.sec1 h2.sec1_tit1 {margin-top:-100px;animation:slidein 1s forwards;}
+#wrap section.sec1 h2.sec1_tit2 {animation:slidein 1s 1s forwards;} */
 
 #wrap section.sec1 h2 span{position:absolute; left:50%;transform:translateX(-50%);}
+#wrap section.sec1 h2.sec1_tit2,
+#wrap section.sec1 h2.sec1_tit3{opacity:0;}
 #wrap section.sec1 h2.sec1_tit3 .on1{opacity:1;margin-left:-260px}
 
 #wrap section.sec1 h2.sec1_tit3 .on0{top:-46px;margin-left:-460px;display:flex;align-items:center;gap:10px;transform:scale(.7) }
@@ -122,3 +126,13 @@ body {color:#424242; background:#fff}
   top: 0;
   z-index: 0;
 } */
+
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
