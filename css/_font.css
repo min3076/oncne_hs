@@ -17,44 +17,44 @@
     font-family: 'NanumSquareNeo';
     font-weight: 300;
     font-style: normal;
-    src: url('/css/fonts/NanumSquareNeo/NanumSquareNeo-aLt.eot');
-    src: url('/css/fonts/NanumSquareNeo/NanumSquareNeo-aLt.eot?#iefix') format('embedded-opentype'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-aLt.woff2') format('woff2'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-aLt.woff') format('woff'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-aLt.ttf') format("truetype");
+    src: url('/fonts/NanumSquareNeo/NanumSquareNeo-aLt.eot');
+    src: url('/fonts/NanumSquareNeo/NanumSquareNeo-aLt.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-aLt.woff2') format('woff2'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-aLt.woff') format('woff'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-aLt.ttf') format("truetype");
     font-display: swap;
 } 
 @font-face {
     font-family: 'NanumSquareNeo';
     font-weight: 400;
     font-style: normal;
-    src: url('/css/fonts/NanumSquareNeo/NanumSquareNeo-bRg.eot');
-    src: url('/css/fonts/NanumSquareNeo/NanumSquareNeo-bRg.eot?#iefix') format('embedded-opentype'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-bRg.woff2') format('woff2'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-bRg.woff') format('woff'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-bRg.ttf') format("truetype");
+    src: url('/fonts/NanumSquareNeo/NanumSquareNeo-bRg.eot');
+    src: url('/fonts/NanumSquareNeo/NanumSquareNeo-bRg.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-bRg.woff2') format('woff2'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-bRg.woff') format('woff'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-bRg.ttf') format("truetype");
     font-display: swap;
 } 
 @font-face {
     font-family: 'NanumSquareNeo';
     font-weight: 700;
     font-style: normal;
-    src: url('/css/fonts/NanumSquareNeo/NanumSquareNeo-cBd.eot');
-    src: url('/css/fonts/NanumSquareNeo/NanumSquareNeo-cBd.eot?#iefix') format('embedded-opentype'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-cBd.woff2') format('woff2'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-cBd.woff') format('woff'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-cBd.ttf') format("truetype");
+    src: url('/fonts/NanumSquareNeo/NanumSquareNeo-cBd.eot');
+    src: url('/fonts/NanumSquareNeo/NanumSquareNeo-cBd.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-cBd.woff2') format('woff2'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-cBd.woff') format('woff'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-cBd.ttf') format("truetype");
     font-display: swap;
 } 
 @font-face {
     font-family: 'NanumSquareNeo';
     font-weight: 800;
     font-style: normal;
-    src: url('/css/fonts/NanumSquareNeo/NanumSquareNeo-dEb.eot');
-    src: url('/css/fonts/NanumSquareNeo/NanumSquareNeo-dEb.eot?#iefix') format('embedded-opentype'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-dEb.woff2') format('woff2'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-dEb.woff') format('woff'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-dEb.ttf') format("truetype");
+    src: url('/fonts/NanumSquareNeo/NanumSquareNeo-dEb.eot');
+    src: url('/fonts/NanumSquareNeo/NanumSquareNeo-dEb.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-dEb.woff2') format('woff2'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-dEb.woff') format('woff'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-dEb.ttf') format("truetype");
     font-display: swap;
 } 
 
@@ -62,11 +62,11 @@
     font-family: 'NanumSquareNeo';
     font-weight: 900;
     font-style: normal;
-    src: url('/css/fonts/NanumSquareNeo/NanumSquareNeo-eHv.eot');
-    src: url('/css/fonts/NanumSquareNeo/NanumSquareNeo-eHv.eot?#iefix') format('embedded-opentype'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-eHv.woff2') format('woff2'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-eHv.woff') format('woff'),
-         url('/css/fonts/NanumSquareNeo/NanumSquareNeo-eHv.ttf') format("truetype");
+    src: url('/fonts/NanumSquareNeo/NanumSquareNeo-eHv.eot');
+    src: url('/fonts/NanumSquareNeo/NanumSquareNeo-eHv.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-eHv.woff2') format('woff2'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-eHv.woff') format('woff'),
+         url('/fonts/NanumSquareNeo/NanumSquareNeo-eHv.ttf') format("truetype");
     font-display: swap;
 } 
 
@@ -75,46 +75,18 @@
     font-family: 'gmarket';
     font-style: normal;
     font-weight:normal;
-    src: url(/css/fonts/GmarketSans/GmarketSansMedium.woff) format('woff')
+    src: url(/fonts/GmarketSans/GmarketSansMedium.woff) format('woff')
 }
 @font-face {
     font-family: 'gmarket';
     font-style: normal;
     font-weight: 100;
-    src: url(/css/fonts/GmarketSans/GmarketSansLight.woff) format('woff')
+    src: url(/fonts/GmarketSans/GmarketSansLight.woff) format('woff')
 }
 @font-face {
     font-family: 'gmarket';
     font-style: normal;
     font-weight:bold;
-    src: url(/css/fonts/GmarketSans/GmarketSansBold.woff) format('woff')
+    src: url(/fonts/GmarketSans/GmarketSansBold.woff) format('woff')
 }
 
-/*에스코어드림*/
-@font-face {
-  font-family: 'score';
-  font-weight:400;
-  src: url(/css/fonts/scoredream/scdream4.woff) format('woff');
-}
-@font-face {
-  font-family: 'score';
-  font-weight:500;
-  src: url(/css/fonts/scoredream/scdream5.woff) format('woff');
-}
-@font-face {
-  font-family: 'score';
-  font-weight:600;
-  src: url(/css/fonts/scoredream/scdream6.woff) format('woff');
-}
-@font-face {
-  font-family: 'score';
-  font-weight:800;
-  src: url(/css/fonts/scoredream/scdream8.woff) format('woff');
-}
-
-/*평창평화체*/
-@font-face {
-  font-family: 'pchp';
-  font-weight:400;
-  src: url(/css/fonts/Pyeongchangpeace/Pyeongchangpeace.woff2) format('woff2');
-}

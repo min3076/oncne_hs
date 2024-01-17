@@ -21,7 +21,11 @@
 	--c_primary_p10 : #E7F3FF;
 
 	
-	--c_secondary_m : #00A467;
+	--c_thema1 : #0098ED;
+	--c_thema2 : #D30000;
+	--c_thema3 : #44C499;
+	--c_thema4 : #2179CA;
+	
 
 	/* color - 40 */
 	--c_primary_40 : #6E99FF;
@@ -65,5 +69,5 @@
 	--f_nsR:'NanumSquareRound';
 }
 
-/* .c-primary-dark {color:var(--c_primary_m);}  적용예시 */
+.c-primary {color:var(--c_primary);} 
 

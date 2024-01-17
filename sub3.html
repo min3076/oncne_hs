@@ -5,24 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sub_학력향상지원센터</title>
-
     <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/contents.css">
     <script type="text/javascript" src="/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="/js/jquery-latest.min.js"></script>
     <script type="text/javascript" src="/js/include.js"></script>
 </head>
 
 <body>
-<div class="wrap">
-<img src="images/sub03.png" usemap="#image-map">
+<main id="wrap">
+<!--[include]HEADER :: Start -->
+<header data-include-path="/include/header.html">
+</header>
+<div class="wrapper" id="con3">
+    <div class="s_visual" id="sv3">
+        <h2>온한글</h2>
+        <p>한글 미해득 수준 진단으로 
+        <span>한글해득이 느린 학습자에게 에듀테크 기반</span>
+            맞춤형 교육을 지원하는 한글해득 시스템
+        <figure class="obj"></figure>
+    </div>
+    <div class="sv_bg"><div class="bgimg"></div></div>
+    <section id="section1" class="parallax__item viewinfo">
+        <h2 class="tit">
+            <span>01</span>
+            한글해득 수준 진단
+        </h2>
+        <div class="layout">
+            <div class="lcon">
+                <p class="item__desc">쉽고 정확한 혁신적인 <br>
+                    한글해득 진단 시스템</p>
+                <ul class="list_ol box">
+                    <li>신뢰도와 타당도를 확보한 진단 문항
+                        데이터베이스구축</li>
+                    <li>학생 및 사용자(담임교사)를 배려한 
+                        인터페이스(UI) 구현</li>
+                </ul>
+                <p>동질동형 문항 2종 세트 구성<br>
+                    (읽기, 유창성, 쓰기 104문항, 교차 출제)</p>
+            </div>
+            <div class="rcon">
+                <div class="padd"><img src="/images/con_sec4_img.png" alt=""></div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="section2" class="parallax__item viewinfo">
+        <h2 class="tit">
+            <span>02</span>
+            한글해득 진단 결과 안내
+        </h2>
+        <div class="layout">
+            <div class="lcon">
+                <p class="item__desc">한글해득 수준을 손쉽게 알아볼 수 있는
+                    분석 결과지 제공</p>
+                <ul class="list_ol box">
+                    <li>한글 미해득 진단결과 안내방식 개선(3개 유형/9개 영역별)</li>
+                    <li>한글 미해득 진단결과에 대한 세부 영역 보정지도 방향 안내</li>
+                </ul>
+                <p>해득 수준 그래프 제시, 오류반응, 보정지원 방향 안내</p>
+            </div>
+            <div class="rcon">
+                <div class="padd"><img src="/images/con_sec4_img.png" alt=""></div>
+                
+            </div>
+        </div>
+    </section>
+</div>
 
-<map name="image-map">
-    <area target="_parent" alt="intro" title="intro" href="index.html" coords="24,26,249,83" shape="rect">
-    <area target="_parent" alt="s_학력향상지원센터" title="s_학력향상지원센터" href="sub1.html" coords="1245,26,1403,79" shape="0">
-    <area target="_parent" alt="s_온채움" title="s_온채움" href="sub2.html" coords="1429,71,1518,36" shape="0">
-    <area target="_parent" alt="s_온한글" title="s_온한글" href="sub3.html" coords="1537,28,1627,79" shape="0">
-    <area target="_parent" alt="s_온생각" title="s_온생각" href="sub4.html" coords="1644,27,1735,80" shape="0">
-    <area target="_parent" alt="s_온샘" title="s_온샘" href="sub5.html" coords="1830,71,1759,38" shape="0">
-</map>
+
+<!--[include]HEADER :: Start -->
+<footer data-include-path="/include/footer.html">
+</footer>
+<!--[include]HEADER :: End -->
+</main>
+<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/MotionPathPlugin.min.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+
+<script  src="/js/contents.js"></script>
+
 </body>
 </html>
